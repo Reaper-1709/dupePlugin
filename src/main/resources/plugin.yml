@@ -1,0 +1,20 @@
+name: dupe
+version: '${project.version}'
+main: me.reaper_17.dupeplugin.Dupe
+api-version: 1.20
+commands:
+  dupe:
+    description: dupe item in main hand
+    usage: /<command>
+  dupeTwice:
+    description: dupe item in main hand twice
+    usage: /<command>
+    permission: Dupe.twice
+    aliases:
+      - d2
+  dupeThrice:
+    description: dupe item in main hand twice
+    usage: /<command>
+    permission: Dupe.thrice
+    aliases:
+      - d3
